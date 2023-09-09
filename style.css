@@ -10,15 +10,20 @@ body {
     background-color: #fff;
     }
     .title_B{
-        font-size: 30px;
-        font-weight: 200px;
+        font-size: 29px;
+        font-weight: 900;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 60px;
     }
     .padding_up {
         padding-top: 70px;
     }
-    .container{
+    .container_auto{
         margin-left: auto;
         margin-right: auto;
+    }
+    .container {
+        margin: 0 20%;
     }
     .flex{
         display: flex;
@@ -31,6 +36,7 @@ body {
     }
     #coffee_logo{
         width: 45px;
+        margin-left: 5%;
     }
     #header_c{
         width: 100%;
@@ -38,15 +44,45 @@ body {
         background-image: url(./image/Website-Banner.jpg);
         background-position: center;
         background-size: 100%;
-        text-align: center;
+        text-align: left;
     }
     #header_box {
-        width: 500px;
+        width: 700px;
         height: 500px;
+        line-height: 50px;
+        margin-left: 100px;
     }
     .title_header {
-        padding-top: 30px;
-        font-size: 60px;
-        font-weight: 1000;
+        margin : 140px 0 90px;
+        font-size: 50px;
+        font-weight: 900;
+        color: var(--complementary_color);
+        font-family:Arial, Helvetica, sans-serif;
     }
-    
+    .header_button {
+        padding: 20px 70px ;
+        background-color: var(--button_color);
+        color: var(--complementary_color);
+        font-weight: 900;
+        border-radius: 8px;
+        border: 0;
+        transition: 0.5s;
+    }
+    .header_button:hover{
+        color: black;
+    }
+    #text_box {
+        width: 50%;
+        height: 300px;
+        font-weight: 400;
+        font-size: 15.2px;
+        line-height: 26px ;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: black;
+        transition: 0.3s;
+    }
+    a:hover{
+        color: var(--secondary_color);
+    }
